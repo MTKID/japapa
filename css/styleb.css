@@ -6,7 +6,8 @@ html{
 body{
      font-family: "ヒラギノ丸ゴ　Pro W4","Hiragino Maru Gothic Pro", sans-serif;
      line-height:1.7;
-           color: #000000
+           color: #000000;
+     background-color: #dddddd;
 }
 a{
   text-decoration: none;
