@@ -111,7 +111,7 @@ const judge = (elm) => {
     $window.alert('正解!');
     score++;
   } else {
-    $window.alert('不正解!');
+    $window.alert('不正解!'+'正解は'+'「'+quiz[quizCount].correct+'」');
   }
   goToNext();
 };
