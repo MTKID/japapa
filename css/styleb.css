@@ -7,7 +7,7 @@ body{
      font-family: "ヒラギノ丸ゴ　Pro W4","Hiragino Maru Gothic Pro", sans-serif;
      line-height:1.7;
            color: #000000;
-     background-color: #dddddd;
+     background-color: #fafafa;
 }
 a{
   text-decoration: none;
@@ -40,7 +40,7 @@ a{
 .grid{
        display: grid;
        gap: 26px;
-       grid-template-columns: repeat(,minmax(240px,1fr));
+       grid-template-columns: 240px 240px;
        margin-top: 6%;
        margin-bottom: 50px;
 
