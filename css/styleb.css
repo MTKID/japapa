@@ -40,7 +40,7 @@ a{
 .grid{
        display: grid;
        gap: 26px;
-       grid-template-columns: 240px 240px;
+       grid-template-columns: ;
        margin-top: 6%;
        margin-bottom: 50px;
 
