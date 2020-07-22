@@ -1,14 +1,14 @@
 const quiz = [
   {
-    question: 'Q1:As a trained linguist by profession, I would like to share with my colleagues in higher education the current findings on the importance of language as an instrument of thought.The psychologists of language tell us that ( ) carry on higher order congnitive activities especially of such functions as analysis, synthesis and evaluation, we need language.',
+    question: 'Q1:As a trained linguist by profession, I would like to share with my colleagues in higher education the current findings on the importance of language as an instrument of thought.The psychologists of language tell us that ( ) carry on higher order cognitive activities especially of such functions as analysis, synthesis and evaluation, we need language.',
     answers: [ 'to be able to', 'we can try to', 'the reason to', 'one can plan to'],
     correct: 'to be able to'
   }, {
-    question: 'Q2: There were all kinds of stories told about the war that made it sound as if it was happening in a fareway and different land. It was not until refugees started passing through our town ( ) we began to see that it was actually taking place in our country.',
+    question: 'Q2: There were all kinds of stories told about the war that made it sound as if it was happening in a faraway and different land. It was not until refugees started passing through our town ( ) we began to see that it was actually taking place in our country.',
     answers: [ 'that', 'when', 'where', 'while'],
     correct: 'that'
   }, {
-    question: 'Q3:カッコ内の意味として最も適切なものを選んでください。The builder’s (conservative)　estimate of the time requires to remodel the kitche was six weeks.',
+    question: 'Q3:カッコ内の意味として最も適切なものを選んでください。The builder’s (conservative)　estimate of the time requires to remodel the kitchen was six weeks.',
     answers: [ 'traditional', 'cautious', 'quick', 'optimistic'],
     correct: 'cautious'
   },{
@@ -16,7 +16,7 @@ const quiz = [
     answers: [ 'nor', 'too', 'also', 'either'],
     correct: 'nor'
   }, {
-    question: 'Q5:She believes (  ) innocent',
+    question: 'Q5:She believes (  ) innocent.',
     answers: [ 'for him to be', 'him to be', 'who he is', 'if he were'],
     correct: 'him to be'
   }, {
@@ -24,7 +24,7 @@ const quiz = [
     answers: [ 'important', 'grave', 'final', 'mobile'],
     correct: 'grave'
   }, {
-    question: 'Q7:The man was once wealthy, but is now ( )',
+    question: 'Q7:The man was once wealthy, but is now ( ).',
     answers: [ 'broke', 'fallen', 'spoiled', 'faild'],
     correct: 'broke'
   },
