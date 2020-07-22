@@ -1,6 +1,6 @@
 const quiz = [
   {
-    question: 'Q1:As a trained linguist by profession, I would like to share with my colleagues in higher education the curruent findings on the importance of language as an instrument of thought.The psycologists of language tell us that ( ) carry on higher order congnitive activities especially of such functions as analysis, synthesis and evaluation, we need language.',
+    question: 'Q1:As a trained linguist by profession, I would like to share with my colleagues in higher education the current findings on the importance of language as an instrument of thought.The psychologists of language tell us that ( ) carry on higher order congnitive activities especially of such functions as analysis, synthesis and evaluation, we need language.',
     answers: [ 'to be able to', 'we can try to', 'the reason to', 'one can plan to'],
     correct: 'to be able to'
   }, {
