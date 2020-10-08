@@ -1,0 +1,65 @@
+＠charset "UTF-8"
+/* 共通部分
+------------------------------- */
+
+html{font-size:100%;}
+body{
+  font-family:"ヒラギノ角ゴ　Pro W4","Hiragino kaku Gothic Pro", sans-serif;
+  width: 74%;
+　line-height:1.7;
+　color:#5b5c76
+　　　}
+
+article{
+  background-color: #dddddd;
+  width: 74%;
+}
+
+
+
+.accordion-trigger { /* label */
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  width: 74%;
+  padding: 15px;
+  padding-right: 42px; /* padding + icon width */
+  border-bottom: 1px solid #ccc;
+  background-color: lightblue;
+  position: relative;
+}
+
+/* icon */
+.accordion-trigger::before,
+.accordion-trigger::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  margin: auto;
+  height: 2px;
+  width: 12px;
+  background-color: #000;
+  transition: all .1s ease-out;
+}
+
+.accordion-trigger::after {
+  transform: rotate(90deg);
+}
+
+.accordion-trigger.is-opened::after {
+  opacity: 0;
+  transform: rotate(0);
+}
+/* /icon */
+
+
+.accordion-target { /* target */
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 0;
+  width: 74%;
+  transition: height .4s ease-out;
+  text-align: left;
+}
