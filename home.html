@@ -5,6 +5,22 @@
         <title></title>
 <!-- CSS -->
         <link href="css/styleb.css" rel="stylesheet">
+                  <link href="css/styleb.css" rel="stylesheet">
+<!--javascript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.12/push.min.js"></script>
+  <script>
+  Push.Permission.request();
+  Push.create('こんにちは！', {
+　　body: '更新をお知らせします！',
+　　icon: 'icon.png',
+　　timeout: 8000, // 通知が消えるタイミング
+　　vibrate: [100, 100, 100], // モバイル端末でのバイブレーション秒数
+　　onClick: function() {
+　　　　// 通知がクリックされた場合の設定
+　　　　console.log(this);
+　　}
+});
+  </script>
         </head>
 
         <body>
@@ -32,7 +48,7 @@
              </div>
           <p>化学編：画像をタップまたはクリック。</p>
            <div class="item">
-               <a href="engmenua.html">
+               <a href="menuc.html">
                        <img src="images/IMG_6448.jpg" alt="">
                         <p>英語編：画像をタップまたはクリック</p>
               </a>
